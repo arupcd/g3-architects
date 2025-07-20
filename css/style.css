@@ -17,12 +17,26 @@ body{
 .text-light-gray{
   color: #727272;
 }
+.text-dark {
+  color: rgb(19, 19, 19);
+}
+.text-primary {
+  color: rgb(255, 144, 14);
+}
 
 .bg-light{
   background-color: rgba(255, 144, 14, 0.10);
 }
 
+
+
+
+
+
 /* Header Style */
+header {
+  padding-bottom: 50px;
+}
 
 /*  Navbar Related Style*/
 .navbar{
@@ -80,7 +94,7 @@ body{
   width: 100%;
 }
 
-/* Responsive Media Query */
+/* Header and HeroResponsive Media Query */
 
 @media screen and (max-width: 576px) {
   .navbar, .nav-links {
@@ -90,3 +104,35 @@ body{
     font-size: 2rem;
   }
 }
+
+/* Team Section CSS */
+main {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+main > section {
+  margin-top: 50px;
+}
+.teams {
+  align-items: center;
+}
+.team-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1);
+  gap: 24px;
+}
+
+.our-features {
+  
+  max-width: 530px;
+}
+.feature-title {
+  font-size: 45px;
+  font-weight: 500;
+  margin: 0;
+}
+.feature-description {
+  font-size: 1rem;
+  
+}
+
